@@ -173,6 +173,17 @@
 			<artifactId>json</artifactId>
 			<version>20090211</version>
 		</dependency>
+		
+		 <dependency>  
+            <groupId>org.codehaus.jackson</groupId>  
+            <artifactId>jackson-mapper-asl</artifactId>  
+            <version>1.4.2</version>  
+        </dependency>  
+        <dependency>  
+            <groupId>org.codehaus.jackson</groupId>  
+            <artifactId>jackson-core-asl</artifactId>  
+            <version>1.4.2</version>  
+        </dependency>  
 
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -198,7 +209,7 @@
 					<server>tomcat-localhost</server>
 					<username>admin</username>
 					<password>admin</password>
-					<path>/</path>
+					<path>/${finalName}</path>
 					<!-- <path>/wp</path> -->
 					<port>8888</port>
 					<uriEncoding>UTF-8</uriEncoding>
