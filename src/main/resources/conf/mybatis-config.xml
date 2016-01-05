@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 命名空间 -->
+	<typeAliases>
+		<!-- <typeAlias alias="TeacherAlbum" type="xyz.hollysys.search.model.TeacherAlbum" 
+			/> <typeAlias alias="TeacherCat" type="xyz.hollysys.search.model.TeacherCat" 
+			/> <typeAlias alias="TeacherTime" type="xyz.hollysys.search.model.TeacherTime" 
+			/> <typeAlias alias="BillOut" type="xyz.hollysys.search.bill.BillOut" /> -->
+		<typeAlias alias="User" type="xyz.hollysys.search.model.User" />
+		<typeAlias alias="UserDetail" type="xyz.hollysys.search.model.UserDetail" />
+	</typeAliases>
+
+	<!-- 映射map -->
+	<mappers>
+		<!-- <package name="xyz.hollysys.search.dao"/> -->
+	</mappers>
+</configuration>
